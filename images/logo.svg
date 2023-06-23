@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="411" height="61" viewBox="0 0 411 61">
+  <g id="logo_sommet" data-name="logo sommet" transform="translate(-141 -128.5)">
+    <path id="logo-fab8488480" d="M141.93,49.643a24.476,24.476,0,1,0-24.476-24.476A24.476,24.476,0,0,0,141.93,49.643Zm-58.757,0A24.476,24.476,0,1,0,58.7,25.166,24.476,24.476,0,0,0,83.174,49.643Zm-58.7,0A24.476,24.476,0,1,0,0,25.166,24.476,24.476,0,0,0,24.476,49.643Z" transform="translate(141 133.31)" fill="#fc273f"/>
+    <text id="SAFEHOME" transform="translate(363 137)" font-size="32" font-family="SegoeUI-Bold, Segoe UI" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="35">SAFE</tspan><tspan y="35" font-family="SegoeUI-Light, Segoe UI" font-weight="300">HOME</tspan></text>
+    <line id="Line_4" data-name="Line 4" y2="61" transform="translate(335.5 128.5)" fill="none" stroke="#000" stroke-width="4"/>
+  </g>
+</svg>

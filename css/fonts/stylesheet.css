@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Securitas Pro';
+    src: url('SecuritasPro-Bold.otf') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Securitas Pro';
+    src: url('SecuritasPro-Regular.otf') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Securitas Pro';
+    src: url('SecuritasPro-Light.otf') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

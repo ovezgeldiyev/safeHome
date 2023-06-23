@@ -1,0 +1,231 @@
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 80px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 56px;
+}
+
+h4 {
+}
+
+h5 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+p {
+  &.big {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  &.sm {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+.main {
+  overflow: hidden;
+  padding-top: 171px;
+}
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  line-height: 23px;
+  border-radius: 25px;
+  &.primary {
+    padding: 14px 20px;
+    background-color: $primary;
+    color: $white;
+    &:hover {
+      background-color: $main;
+    }
+  }
+  &.secondary {
+    font-size: 22px;
+    line-height: 30px;
+    padding: 16px 20px;
+    background-color: $white;
+    color: $black;
+    &:hover {
+      color: $white;
+      background-color: $primary;
+      svg {
+        fill: $white;
+      }
+    }
+    svg {
+      width: 30px;
+      height: 30px;
+      margin-right: 16px;
+      fill: $black;
+      transition: 0.3s ease;
+      &.sm {
+        width: 23px;
+      }
+    }
+  }
+  &.uniq {
+    background-color: $black;
+    color: $white;
+    padding: 14px 52px;
+    &:hover {
+      background-color: $primary;
+    }
+  }
+  &.big {
+    font-size: 24px;
+    line-height: 32px;
+    border-radius: 45px;
+  }
+}
+.lang {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 400;
+  font-family: $mainFont;
+  color: $white;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s ease;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0;
+  &__menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 100%;
+    opacity: 0;
+    max-height: 0;
+    transition: 0.3s ease;
+    overflow: hidden;
+    background-color: $white;
+    padding: 0 15px;
+    border-radius: 4px;
+    z-index: 99;
+    box-shadow: 0px 0px 10px rgba(1, 0, 3, 0.15);
+    a {
+      margin-bottom: 4px;
+      display: block;
+      color: $main;
+      &:hover {
+        opacity: 1;
+        color: $primary;
+      }
+      &:last-child {
+        margin: 0;
+      }
+    }
+  }
+  &:hover {
+    .lang__menu {
+      opacity: 1;
+      max-height: 150px;
+      padding: 12px 15px;
+    }
+  }
+  & > span {
+    position: relative;
+    padding-right: 22px;
+    svg {
+      position: absolute;
+      width: 15px;
+      height: 12px;
+      top: 8px;
+      right: 0;
+      transition: 0.3s ease;
+      color: $white;
+    }
+  }
+}
+.phoneCall {
+    display: inline-flex;
+    align-items: center;
+    font-size: 32px;
+    line-height: 43px;
+    font-weight: 700;
+    color: $black;
+    &:hover {
+      opacity: 1;
+      color: $primary;
+
+    }
+    b {
+      font-weight: 700;
+    }
+    svg {
+      width: 40px;
+      height: 40px;
+      margin-right: 13px;
+      color: $primary;
+      transition: .3s ease;
+    }
+}
+.moreLink {
+  font-size: 24px;
+  line-height: 32px;
+  display: inline-flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: $black;
+  font-weight: 600;
+  &:hover {
+    opacity: 1;
+    color: $primary;
+    svg {
+      fill: $primary;
+    }
+  }
+  svg {
+    width: 48px;
+    height: 25px;
+    fill: $black;
+    transition: 0.3s ease;
+    margin-left: 30px;
+  }
+}
+.anchor {
+  position: relative;
+  top: -100px;
+}
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

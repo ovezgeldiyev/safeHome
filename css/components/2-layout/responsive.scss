@@ -1,0 +1,347 @@
+// 1640px
+@include xxxxxlg-xxxxxxlg {
+  .phoneCall {
+    font-size: 24px;
+    line-height: 32px;
+    svg {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+  }
+  .main {
+    padding-top: 130.45px;
+  }
+  @include header-xxxxxlg-xxxxxxlg;
+  @include nav-xxxxxlg-xxxxxxlg;
+}
+// 1520px
+@include xxxxlg-xxxxxlg {
+  @include solution-xxxxlg-xxxxxlg;
+  @include product-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  h1 {
+    font-size: 42px;
+    line-height: 44px;
+  }
+  h2 {
+    font-size: 55px;
+    line-height: 70px;
+  }
+  h3 {
+    font-size: 38px;
+    line-height: 52px;
+  }
+  h5 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 26px;
+    &.big {
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+  .phoneCall {
+    font-size: 20px;
+    line-height: 26px;
+    svg {
+      width: 26px;
+      height: 26px;
+      margin-right: 10px;
+    }
+  }
+  .main {
+    padding-top: 110px;
+  }
+  @include header-xxxlg-xxxxlg;
+  @include hero-xxxlg-xxxxlg;
+  @include intro-xxxlg-xxxxlg;
+  @include about-xxxlg-xxxxlg;
+  @include footer-xxxlg-xxxxlg;
+  @include connect-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+    @include header-xlg-xxlg-extra;
+    @include nav-xlg-xxlg-extra;
+  @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  .auto__container {
+    padding: 0 30px;
+  }
+  h1 {
+    font-size: 38px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .button {
+    &.secondary {
+      font-size: 18px;
+      line-height: 24px;
+      padding: 14px 16px;
+      svg {
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+        &.sm {
+          width: 20px;
+        }
+      }
+    }
+  }
+  .moreLink {
+    font-size: 20px;
+    line-height: 26px;
+    svg {
+      width: 38px;
+      height: 20px;
+      margin-left: 20px;
+    }
+  }
+  .lang {
+    font-size: 18px;
+    line-height: 24px
+  }
+  .phoneCall {
+    font-size: 18px;
+    line-height: 24px;
+    svg {
+      width: 24px;
+      height: 24px;
+      margin-right: 8px;
+    }
+  }
+  .main {
+    padding-top: 80px;
+  }
+  @include header-xlg-xxlg;
+  @include nav-xlg-xxlg;
+  @include hero-xlg-xxlg;
+  @include product-xlg-xxlg;
+  @include protect-xlg-xxlg;
+  @include service-xlg-xxlg;
+  @include intro-xlg-xxlg;
+  @include about-xlg-xxlg;
+  @include solution-xlg-xxlg;
+  @include footer-xlg-xxlg;
+  @include connect-xlg-xxlg;
+
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  h1 {
+    font-size: 34px;
+    line-height: 36px;
+  }
+  h2 {
+    font-size: 42px;
+    line-height: 56px;
+  }
+  h3 {
+    font-size: 34px;
+    line-height: 47px;
+  }
+  h5 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 24px;
+    &.big {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+  .lang {
+    font-size: 15px;
+    line-height: 20px;
+    & > span {
+        svg {
+            width: 12px;
+            height: 9px;
+        }
+    }
+  }
+  .phoneCall {
+    font-size: 15px;
+    line-height: 20px;
+    svg {
+      width: 20px;
+      height: 20px;
+      margin-right: 7px;
+    }
+  }
+  .main {
+    padding-top: 64px;
+  }
+  @include header-lg-xlg;
+  @include nav-lg-xlg;
+  @include hero-lg-xlg;
+  @include footer-lg-xlg;
+}
+// 930px
+@include md-lg {
+  @include hero-md-lg;
+  @include protect-md-lg;
+  @include service-md-lg;
+  @include intro-md-lg;
+  @include solution-md-lg;
+  @include footer-md-lg;
+  @include connect-md-lg;
+
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 20px;
+  }
+  h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 21px;
+    &.big {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  .anchor {
+    top: -60px;
+  }
+  @include hero-sm-md;
+  @include service-sm-md;
+  @include intro-sm-md;
+  @include solution-sm-md;
+  @include footer-sm-md;
+  @include connect-sm-md;
+
+}
+// 650px
+@include sm-md-extra {
+  @include hero-sm-md-extra;
+  @include intro-sm-md-extra;
+  @include solution-sm-md-extra;
+  @include footer-sm-md-extra;
+  @include connect-sm-md-extra;
+
+}
+// 540px
+@include xsm-sm {
+  h1 {
+    font-size: 32px;
+    line-height: 34px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 43px;
+  }
+  h3 {
+    font-size: 32px;
+    line-height: 43px;
+  }
+  h5 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  p {
+    &.big {
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+  .button {
+    &.secondary {
+      padding: 15px 20px;
+      svg {
+        width: 20px;
+        height: 20px;
+        margin-right: 7px;
+        &.sm {
+          width: 20px;
+          height: 26px;
+        }
+      }
+    }
+  }
+  .moreLink {
+    font-size: 16px;
+    line-height: 21px;
+    svg {
+      width: 30px;
+      height: 18px;
+      margin-left: 13px;
+    }
+  }
+  .lang {
+    font-size: 13px;
+    line-height: 17px;
+    & > span {
+        padding-right: 16px;
+        svg {
+            top: 5px;
+            width: 10px;
+            height: 8px;
+        }
+    }
+  }
+  .phoneCall {
+    font-size: 13px;
+    line-height: 17px;
+    svg {
+      width: 20px;
+      height: 20px;
+      margin-right: 7px;
+    }
+  }
+  .main {
+    padding-top: 59px;
+  }
+  .button {
+    font-size: 15px;
+    line-height: 20px
+  }
+  @include header-xsm-sm;
+  @include nav-xsm-sm;
+  @include hero-xsm-sm;
+  @include product-xsm-sm;
+  @include protect-xsm-sm;
+  @include service-xsm-sm;
+  @include intro-xsm-sm;
+  @include about-xsm-sm;
+  @include footer-xsm-sm;
+  @include connect-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  @include hero-xxsm-xsm;
+  @include intro-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  .auto__container {
+    padding: 0 16px;
+  }
+  @include header-xxxsm-xxsm;
+  @include connect-xxxsm-xxsm;
+
+}
